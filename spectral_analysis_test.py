@@ -26,8 +26,12 @@ bc_spectral_results = spectral_clustering(affinity=connectivity, n_clusters=3).a
 
 colorkey=['r','b','g']
 
-#Not going to fiddle too much with this
+#Not going to fiddle too much with this, just a demo
 plt.scatter(X[:,0],X[:,1],c=bc_spectral_results)
+
+plt.set_xlabel('common xlabel')
+plt.set_ylabel('common ylabel')
+
 
 plt.show()
 
