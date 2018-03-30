@@ -68,7 +68,7 @@ FN = np.array(FN)
 plot = plt.figure()
 ax = Axes3D(plot)
 
-# Not going to fiddle too much with this, sometimes the items are listed backwards
+# Not going to fiddle too much with the graph
 ax.scatter(TP.T[:][0], TP.T[:][1], TP.T[:][2], label='Malignant: True Positive')
 ax.scatter(FP.T[:][0], FP.T[:][1], FP.T[:][2], label='Malignant: False Positive')
 ax.scatter(TN.T[:][0], TN.T[:][1], TN.T[:][2], label='Benign: True Negative')
